@@ -339,7 +339,9 @@ def main():
     alice.withdraw(100, note="Post-unfreeze withdrawal")
 
     # Dunder demos
+
     print("Learn python")
+    print("Hello world")
 
 if __name__ == "__main__":
     main()
