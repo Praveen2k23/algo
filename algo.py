@@ -339,12 +339,8 @@ def main():
     alice.withdraw(100, note="Post-unfreeze withdrawal")
 
     # Dunder demos
-    print("\n── Magic Methods ─────────────────────────────")
-    print(f"Combined balances (alice + carol): ${alice + carol:,.2f}")
-    print(f"Richest account: {bank.richest_account()}")
-    print(f"Alice < Carol in balance? {alice < carol}")
-    print(f"Total accounts opened: {Account.total_accounts()}")
     print(bank)
+    print("Hello world")
 
 
 if __name__ == "__main__":
